@@ -30,8 +30,8 @@ A planilha `Documentacao_Revisao_Integrativa.xlsx` documenta etapas da revisão,
 - **Título da pesquisa:** Desenvolvimento Ágil Validado em Ambientes Regulados: Proposição de um Framework Baseado em Risco para Desenvolvimento de Softwares com Impacto BPx
 - **Autoria:** Kellen Cristina de Almeida Nery
 - **Instituição:** Farmanguinhos/Fiocruz
-- **Versão do conjunto de arquivos:** 11/11/2026 - versão 1.0
-- **DOI:** [inserir DOI, após a publicação]
+- **Versão do conjunto de arquivos:** 12/11/2026 - versão 1.0
+- **DOI:** https://doi.org/10.6084/m9.figshare.34989514
 
 ## Observação
 
