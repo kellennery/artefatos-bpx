@@ -1,0 +1,11 @@
+[
+{"type":"header","version":"5.2.3","comment":"Export to JSON plugin for phpMyAdmin"},
+{"type":"database","name":"bdvacina"},
+{"type":"table","name":"rv","database":"bdvacina","data":
+[
+{"responsavel_id":"4","responsavel":"Kellen Nery","paciente_id":"11","dependente":"Dependente A","registro_id":"12","vacina":"BCG","tipo_dose":"basica","numero_dose":"1","data_aplicacao":"2026-09-10","status_registro":"ativo"},
+{"responsavel_id":"4","responsavel":"Kellen Nery","paciente_id":"11","dependente":"Dependente A","registro_id":"13","vacina":"poliomielite inativada VIP","tipo_dose":"basica","numero_dose":"1","data_aplicacao":"2026-09-19","status_registro":"ativo"},
+{"responsavel_id":"4","responsavel":"Kellen Nery","paciente_id":"12","dependente":"Dependente B","registro_id":"14","vacina":"rotavírus humano","tipo_dose":"basica","numero_dose":"1","data_aplicacao":"2026-08-07","status_registro":"ativo"}
+]
+}
+]

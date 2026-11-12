@@ -1,0 +1,351 @@
+[ {
+  "command" : {
+    "takeScreenshotCommand" : {
+      "path" : "CT-DEP-HIST-01-menu-de-acoes-dependente-A",
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131353045,
+    "duration" : 700
+  }
+}, {
+  "command" : {
+    "takeScreenshotCommand" : {
+      "path" : "CT-DEP-HIST-02-historico-dependente-B-carregado",
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131385722,
+    "duration" : 793
+  }
+}, {
+  "command" : {
+    "assertConditionCommand" : {
+      "condition" : {
+        "visible" : {
+          "textRegex" : "Histórico Vacinal",
+          "optional" : false
+        }
+      },
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131375603,
+    "duration" : 364
+  }
+}, {
+  "command" : {
+    "defineVariablesCommand" : {
+      "env" : {
+        "MAESTRO_FILENAME" : "40-historico-dependente-A"
+      },
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131333956,
+    "duration" : 16
+  }
+}, {
+  "command" : {
+    "applyConfigurationCommand" : {
+      "config" : {
+        "appId" : "com.vacinaplusmobile.app"
+      },
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131333975,
+    "duration" : 13
+  }
+}, {
+  "command" : {
+    "pressKeyCommand" : {
+      "code" : "BACK",
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131363799,
+    "duration" : 1492
+  }
+}, {
+  "command" : {
+    "runScriptCommand" : {
+      "script" : "// Pausa para permitir a seleção manual nos campos de parentesco e tipo sanguíneo.\r\nconst inicio = Date.now();\r\nwhile (Date.now() - inicio < 10000) {\r\n  // Aguarda até completar 10 segundos.\r\n}",
+      "sourceDescription" : "C:\\sisdds\\AppMobile\\VacinaPlusMobile\\.maestro\\flows\\aguardar10s.js",
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131341774,
+    "duration" : 10839
+  }
+}, {
+  "command" : {
+    "assertConditionCommand" : {
+      "condition" : {
+        "visible" : {
+          "textRegex" : "Dependentes",
+          "optional" : false
+        }
+      },
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131338388,
+    "duration" : 329
+  }
+}, {
+  "command" : {
+    "tapOnElement" : {
+      "selector" : {
+        "textRegex" : "Histórico Vacinal",
+        "optional" : false
+      },
+      "retryIfNoChange" : false,
+      "waitUntilVisible" : false,
+      "longPress" : false,
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131353747,
+    "duration" : 6406
+  }
+}, {
+  "command" : {
+    "takeScreenshotCommand" : {
+      "path" : "CT-DEP-HIST-01-historico-dependente-A",
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131362992,
+    "duration" : 806
+  }
+}, {
+  "command" : {
+    "waitForAnimationToEndCommand" : {
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131383357,
+    "duration" : 1709
+  }
+}, {
+  "command" : {
+    "assertConditionCommand" : {
+      "condition" : {
+        "visible" : {
+          "textRegex" : "Histórico Vacinal",
+          "optional" : false
+        }
+      },
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131352614,
+    "duration" : 430
+  }
+}, {
+  "command" : {
+    "tapOnElement" : {
+      "selector" : {
+        "textRegex" : "Dependentes",
+        "optional" : false
+      },
+      "retryIfNoChange" : false,
+      "waitUntilVisible" : false,
+      "longPress" : false,
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131333988,
+    "duration" : 4400
+  }
+}, {
+  "command" : {
+    "assertConditionCommand" : {
+      "condition" : {
+        "visible" : {
+          "textRegex" : "Dependente A",
+          "optional" : false
+        }
+      },
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131338717,
+    "duration" : 1174
+  }
+}, {
+  "command" : {
+    "assertConditionCommand" : {
+      "condition" : {
+        "visible" : {
+          "textRegex" : "Dependente A",
+          "optional" : false
+        }
+      },
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131362066,
+    "duration" : 925
+  }
+}, {
+  "command" : {
+    "takeScreenshotCommand" : {
+      "path" : "CT-DEP-HIST-01-lista-dependentes",
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131340388,
+    "duration" : 1383
+  }
+}, {
+  "command" : {
+    "assertConditionCommand" : {
+      "condition" : {
+        "visible" : {
+          "textRegex" : "Dependentes",
+          "optional" : false
+        }
+      },
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131365292,
+    "duration" : 294
+  }
+}, {
+  "command" : {
+    "waitForAnimationToEndCommand" : {
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131360154,
+    "duration" : 1910
+  }
+}, {
+  "command" : {
+    "takeScreenshotCommand" : {
+      "path" : "CT-DEP-HIST-02-carregamento-dependente-B",
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131382595,
+    "duration" : 762
+  }
+}, {
+  "command" : {
+    "assertConditionCommand" : {
+      "condition" : {
+        "visible" : {
+          "textRegex" : "Dependente B",
+          "optional" : false
+        }
+      },
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131385067,
+    "duration" : 654
+  }
+}, {
+  "command" : {
+    "tapOnElement" : {
+      "selector" : {
+        "textRegex" : "Histórico Vacinal",
+        "optional" : false
+      },
+      "retryIfNoChange" : false,
+      "waitUntilVisible" : false,
+      "longPress" : false,
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131376660,
+    "duration" : 5934
+  }
+}, {
+  "command" : {
+    "runScriptCommand" : {
+      "script" : "// Pausa para permitir a seleção manual nos campos de parentesco e tipo sanguíneo.\r\nconst inicio = Date.now();\r\nwhile (Date.now() - inicio < 10000) {\r\n  // Aguarda até completar 10 segundos.\r\n}",
+      "sourceDescription" : "C:\\sisdds\\AppMobile\\VacinaPlusMobile\\.maestro\\flows\\aguardar10s.js",
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131365587,
+    "duration" : 10016
+  }
+}, {
+  "command" : {
+    "assertConditionCommand" : {
+      "condition" : {
+        "visible" : {
+          "textRegex" : "Dependente B",
+          "optional" : false
+        }
+      },
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131339891,
+    "duration" : 495
+  }
+}, {
+  "command" : {
+    "takeScreenshotCommand" : {
+      "path" : "CT-DEP-HIST-02-menu-de-acoes-dependente-B",
+      "optional" : false
+    }
+  },
+  "metadata" : {
+    "status" : "COMPLETED",
+    "timestamp" : 1793131375968,
+    "duration" : 691
+  }
+} ]

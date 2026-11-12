@@ -1,0 +1,9 @@
+[
+{"type":"header","version":"5.2.3","comment":"Export to JSON plugin for phpMyAdmin"},
+{"type":"database","name":"bdvacina"},
+{"type":"table","name":"p","database":"bdvacina","data":
+[
+{"paciente_id":"4","paciente":"Kellen Nery","registro_id":"11","vacina":"pneumocócica 23-valente","sigla":"Pneumo2","tipo_dose":"basica","numero_dose":"1","data_aplicacao":"2021-11-22","lote":null,"status_registro":"ativo"}
+]
+}
+]
