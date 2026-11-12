@@ -1,0 +1,11 @@
+[
+{"type":"header","version":"5.2.3","comment":"Export to JSON plugin for phpMyAdmin"},
+{"type":"database","name":"bdvacina"},
+{"type":"table","name":"d","database":"bdvacina","data":
+[
+{"vacina_id":"3","vacina":"penta (DTP+Hib+HB)","esquema_id":"3","nome_esquema":"Pentavalente infantil","contexto_esquema":"padrao","total_doses":"3","numero_dose":"1","nome_dose":"1ª dose","tipo_calculo":"idade","intervalo_minimo_dias":null,"idade_valor":"2","idade_unidade":"meses","recorrencia_dias":null,"observacao":"Pentavalente"},
+{"vacina_id":"3","vacina":"penta (DTP+Hib+HB)","esquema_id":"3","nome_esquema":"Pentavalente infantil","contexto_esquema":"padrao","total_doses":"3","numero_dose":"2","nome_dose":"2ª dose","tipo_calculo":"idade","intervalo_minimo_dias":"60","idade_valor":"4","idade_unidade":"meses","recorrencia_dias":null,"observacao":"Pentavalente"},
+{"vacina_id":"3","vacina":"penta (DTP+Hib+HB)","esquema_id":"3","nome_esquema":"Pentavalente infantil","contexto_esquema":"padrao","total_doses":"3","numero_dose":"3","nome_dose":"3ª dose","tipo_calculo":"idade","intervalo_minimo_dias":"60","idade_valor":"6","idade_unidade":"meses","recorrencia_dias":null,"observacao":"Pentavalente"}
+]
+}
+]
